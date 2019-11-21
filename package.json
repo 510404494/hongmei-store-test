@@ -106,12 +106,6 @@
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.41.2"
   },
-  "bugs": {
-    "url": "https://github.com/armour/vue-typescript-admin-template/issues"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "keywords": [
     "vue",
     "typescript",
@@ -119,14 +113,5 @@
     "template",
     "element-ui"
   ],
-  "lint-staged": {
-    "*.{js,vue}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/armour/vue-typescript-admin-template.git"
-  }
+
 }
